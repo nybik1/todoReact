@@ -1,8 +1,0 @@
-.CatList{
-    display: flex;
-    margin: 30px auto 0px;
-    max-width: 700px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-}
