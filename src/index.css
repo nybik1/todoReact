@@ -5,7 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+    background-image: url(http://www.hdwallpapers.in/walls/star_trail-wide.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: animate-bg 50s infinite linear;
+  }
+  
+  @keyframes animate-bg {
+    from { background-size: 100%; background-position: 0% 0%; }
+    50% { background-size: 120%; background-position: 0% 20% }
+    to { background-size: 100%; background-position: 0% 0%; }
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

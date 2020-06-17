@@ -1,0 +1,39 @@
+.App{
+    width: 1000px;
+    min-height: 200px;
+    background: rgb(0,112,255);
+    background: linear-gradient(90deg, rgba(0,112,255,0.5718662464985995) 29%, rgba(9,9,75,0.8155637254901961) 82%);
+    margin: 150px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+
+}
+
+.app__footer {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button{
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-size: 200% auto;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background-image: linear-gradient(90deg, rgba(0,112,255,0.5718662464985995) 29%, rgba(5,189,190,0.8883928571428571) 82%);
+    transition: 0.5s;
+    outline: none;
+}
+button:hover {
+    background-position: right center;
+}

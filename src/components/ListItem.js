@@ -1,4 +1,5 @@
 import React from 'react';
+import './../ListItem.css';
 
 
 
@@ -9,7 +10,7 @@ function ListItem({
         ...(completed && { textDecoration: 'line-through' })
     };
     return (
-        <li onClick={() => onClick(id)} style={styles} > {value}</li >
+        <li className="todo-item" onClick={() => onClick(id)} style={styles} > {value}</li >
     );
 }
 export default ListItem;

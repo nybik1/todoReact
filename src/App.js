@@ -67,10 +67,12 @@ class App extends React.Component {
       <div className="App" >
         <ToDoInput addTodo={this.handleTodo} />
         <List toggleCompleted={this.toggleCompleted} items={this.filterTodos()} />
-        <button onClick={this.setFilterBy('all')}>All</button>
-        <button onClick={this.setFilterBy("completed")}>completed</button>
-        <button onClick={this.setFilterBy("active")}>active</button>
-        <button onClick={this.clearTodos}>clear todos</button>
+        <footer className="app__footer">
+          <button className="btn-all" onClick={this.setFilterBy('all')}>All</button>
+          <button className="btn-completed" onClick={this.setFilterBy("completed")}>completed</button>
+          <button className="btn-active" onClick={this.setFilterBy("active")}>active</button>
+          <button className="btn-clear" onClick={this.clearTodos}>clear todos</button>
+        </footer>
       </div>
     );
   }
