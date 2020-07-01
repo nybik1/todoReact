@@ -1,0 +1,9 @@
+.todo-input input{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 700px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
